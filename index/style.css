@@ -89,10 +89,26 @@ img.woy{
 .item a{
     text-decoration: none;
     text-transform: none;
+}
+.item a:first-of-type{
     color:#7FCDCD;
     border:#FF6F61 solid 2px;
     box-shadow: #FF6F61 0 0 10px ;
 }
+.item a:nth-child(2){
+    color:#3bbe2a;
+    border:greenyellow solid 2px;
+    box-shadow: greenyellow 0 0 10px ;
+}
+.item a:last-of-type{
+    color:#7FCDCD;
+    border:#FF6F61 solid 2px;
+    box-shadow: #FF6F61 0 0 10px ;
+}
+
+
+
+
 .cont{
     background-color: black;
     color:whitesmoke;
