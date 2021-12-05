@@ -2,6 +2,9 @@
     padding: 0;
     margin:0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    
 }
 .tacont{
     display: flex;
@@ -89,24 +92,37 @@ img.woy{
 .item a{
     text-decoration: none;
     text-transform: none;
+    font-weight: 300;
+    padding:15px 30px;
+    border-radius:15px;
+    transition: .2s ease all;
 }
-.item a:first-of-type{
+
+.i1{
     color:#7FCDCD;
     border:#FF6F61 solid 2px;
-    box-shadow: #FF6F61 0 0 10px ;
+    box-shadow: #FF6F61 0 0 5px ;
 }
-.item a:nth-child(2){
+.i2{
     color:#3bbe2a;
     border:greenyellow solid 2px;
-    box-shadow: greenyellow 0 0 10px ;
+    box-shadow: greenyellow 0 0 5px ;
 }
-.item a:last-of-type{
-    color:#7FCDCD;
-    border:#FF6F61 solid 2px;
-    box-shadow: #FF6F61 0 0 10px ;
+.i3{
+    color:#b340cf;
+    border:#be6bd3 solid 2px;
+    box-shadow: #be6bd3 0 0 5px ;
 }
 
-
+.item:hover > .i1{
+    background-color: #c74135c2;
+}
+.item:nth-child(2):hover > .i2{
+    background-color: rgba(64, 105, 1, 0.801);
+}
+.item:last-of-type:hover > .i3{
+    background-color: #71108ac7;
+}
 
 
 .cont{
